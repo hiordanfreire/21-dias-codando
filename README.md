@@ -8,7 +8,7 @@ A idéia deste desafio é codar uma aplicação por dia e desenvolver códigos p
 
 - [x] 01. Criar um repositório para listar os projetos que serão desenvolvidos ao longo dos 21 dias.
 - [x] 02. Hello world customizado com fontes, cores e imagem 
-- [ ] 03. Criar um botão animado
+- [X] 03. Criar um botão animado
 - [ ] 04. Criar uma calculadora
 - [ ] 05. Desenvolver uma página personalizada que exiba o erro 404.
 - [ ] 06. Criar um card com o efeito glassmorphism.
