@@ -1,5 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;1,400&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto Mono";
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+body{
+  background-color: #A5BEFA;
+}
+
+.mensagem{
+  text-align: center;
+  padding-top: 10rem;
+  font-weight: 400;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+input[type="checkbox"]{
+  width: 20rem;
+  height: 10rem;
+  background-color: #e8f1f2;
+  appearance: none;
+  border-radius: 5rem;
+  transition: 0.5s;
+  position: relative;
+}
+
+input:checked[type="checkbox"]{
+  background-color: #1b98e0;
+}
+
+input[type="checkbox"]::before{
+  content: '';
+  width: 10rem;
+  height: 10rem;
+  border-radius: 5rem;
+  background-color: black;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.1);
+  transition: 0.5s;
+
+}
+input:checked[type="checkbox"]::before{
+  left: 10rem;
+  background-color: #247BA0;
 }
