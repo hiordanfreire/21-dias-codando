@@ -11,5 +11,5 @@ A idéia deste desafio é codar uma aplicação por dia e desenvolver códigos p
 - [X] 03. Criar um botão animado
 - [X] 04. Criar uma calculadora
 - [X] 05. Desenvolver uma página personalizada que exiba o erro 404.
-- [ ] 06. Criar um card com o efeito glassmorphism.
+- [X] 06. Criar um card com o efeito glassmorphism.
 - [ ] 07. Desenvolver um contator.
